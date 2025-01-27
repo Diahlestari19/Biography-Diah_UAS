@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Diah Lestari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fef6e4;
+            color: #2b2d42;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        .navbar {
+            background-color: #d8a47f;
+        }
+
+        .navbar a {
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar a:hover,
+        .navbar .nav-link.active {
+            background-color: #000;
+            color: #fff !important;
+            border-radius: 50px;
+        }
+
+        .text-highlight {
+            color: #d8a47f;
+        }
+
+        footer {
+            background-color: #2b2d42;
+            color: white;
+            padding: 1rem;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Diah Lestari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container mt-5 fade-in">
+        <h1 class="text-center text-primary section-title">Tentang Diah Lestari</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="text-center">Halo, saya Diah Lestari, seorang individu yang senang mengeksplorasi dunia seni dan kreativitas melalui hobi seperti menonton drama, menyanyi, dan mendengarkan musik. Saya juga memiliki minat yang besar dalam memasak, yang memungkinkan saya untuk terus belajar dan berkreasi di dapur.</p>
+
+                <h2 class="text-primary mt-4">Riwayat Pendidikan</h2>
+                <table class="table table-bordered shadow-sm">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th>Jenjang</th>
+                            <th>Institusi</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SD</td>
+                            <td>SDN 011 Ganting</td>
+                            <td>2012-2018</td>
+                        </tr>
+                        <tr>
+                            <td>SMP</td>
+                            <td>SMPN 1 Salo</td>
+                            <td>2018-2021</td>
+                        </tr>
+                        <tr>
+                            <td>SMK</td>
+                            <td>SMKN 1 Bangkinang</td>
+                            <td>2021-2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 class="text-primary mt-4">Hobi</h2>
+                <ul class="list-group shadow-sm">
+                    <li class="list-group-item">Menonton drama</li>
+                    <li class="list-group-item">Menyanyi</li>
+                    <li class="list-group-item">Mendengarkan musik</li>
+                    <li class="list-group-item">Memasak</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Diah Lestari. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
